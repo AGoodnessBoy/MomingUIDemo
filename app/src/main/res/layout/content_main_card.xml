@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="0dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:maxHeight="180dp"
+    android:background="@drawable/shape_main_card">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/lable_needPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:text="当月需还" />
+
+        <TextView
+            android:id="@+id/tv_needPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_needPay"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="17dp"
+            android:text="1200.00" />
+
+        <TextView
+            android:id="@+id/lable_alreadyPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="134dp"
+            android:layout_toEndOf="@+id/lable_allPay"
+            android:layout_toRightOf="@+id/lable_allPay"
+            android:text="当月已还" />
+
+        <TextView
+            android:id="@+id/tv_alreadyPPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_alreadyPay"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/tv_allPPay"
+            android:layout_toRightOf="@+id/tv_allPPay"
+            android:text="2000.00" />
+
+        <TextView
+            android:id="@+id/lable_allPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_needPay"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="24dp"
+            android:text="还款总额" />
+
+        <TextView
+            android:id="@+id/tv_allPPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_allPay"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="19dp"
+            android:text="4000.00" />
+
+
+        <TextView
+            android:id="@+id/lable_nextPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="135dp"
+            android:layout_toEndOf="@+id/lable_alreadyPay"
+            android:layout_toRightOf="@+id/lable_alreadyPay"
+            android:text="下月还款" />
+
+        <TextView
+            android:id="@+id/tv_nextPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_allPay"
+            android:layout_marginStart="27dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/tv_alreadyPPay"
+            android:layout_toRightOf="@+id/tv_alreadyPPay"
+            android:text="4000.00" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
